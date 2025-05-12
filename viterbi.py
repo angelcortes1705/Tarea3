@@ -51,7 +51,7 @@ def viterbi_find_path(graph, start, sequence):
     return path[::-1]  # Invertimos para tener el camino de inicio a fin
 
 
-# 🧪 Ejemplo de uso con grafo dirigido
+# Ejemplo de uso con grafo dirigido
 graph_a = {
     'A': [('B', 'a'), ('C', 'b')],
     'B': [('D', 'b')],
