@@ -94,7 +94,7 @@ def max_dual_room_value(activities):
     return best, best_pair
 
 
-# 🧪 Caso de prueba
+# Caso de prueba
 # Cada actividad tiene: (hora de inicio, hora de fin, valor)
 if _name_ == "_main_":
     actividades = [
